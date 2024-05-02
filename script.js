@@ -55,6 +55,7 @@ play.addEventListener('click',function(){
     stop.addEventListener('click', function(){
         clearInterval(intervalId)
         play.removeAttribute('id')
-        play.setAttribute('id', 'play')    
+        play.setAttribute('id', 'play')
+        isIntervalActive = false
     })
 })
